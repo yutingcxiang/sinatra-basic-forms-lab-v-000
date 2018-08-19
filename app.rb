@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end
   
   post '/new' do
+    @pupp
     erb :display_puppy
   end
 end
